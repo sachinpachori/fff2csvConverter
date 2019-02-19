@@ -1,0 +1,1 @@
+1. Before running the project, copy all the files from TestData solution folder to the path C:\\Temp\\FFV2CSVConverter\\TestData\\.

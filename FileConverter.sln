@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestData", "TestData", "{90D24E55-3175-4D3A-A55D-CA0110CE587D}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Temp\FFV2CSVConverter\TestData\inputdata-date.txt = ..\..\..\Temp\FFV2CSVConverter\TestData\inputdata-date.txt
+		..\..\..\Temp\FFV2CSVConverter\TestData\inputdata-metadatanotmatch.txt = ..\..\..\Temp\FFV2CSVConverter\TestData\inputdata-metadatanotmatch.txt
+		..\..\..\Temp\FFV2CSVConverter\TestData\inputdata.txt = ..\..\..\Temp\FFV2CSVConverter\TestData\inputdata.txt
+		..\..\..\Temp\FFV2CSVConverter\TestData\metadata.txt = ..\..\..\Temp\FFV2CSVConverter\TestData\metadata.txt
+		..\..\..\Temp\FFV2CSVConverter\TestData\output.csv = ..\..\..\Temp\FFV2CSVConverter\TestData\output.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E6319E42-4AFE-4F91-8B98-4C68C9B8E832}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileConverterTestSuite", "FileConverterTestSuite\FileConverterTestSuite.csproj", "{224AC633-0BD1-43B9-8B58-FA92D324FDB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileConverter", "FileConverter\FileConverter.csproj", "{75061BC0-A5FB-42A6-84B3-B82728E02E61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{224AC633-0BD1-43B9-8B58-FA92D324FDB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224AC633-0BD1-43B9-8B58-FA92D324FDB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224AC633-0BD1-43B9-8B58-FA92D324FDB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224AC633-0BD1-43B9-8B58-FA92D324FDB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75061BC0-A5FB-42A6-84B3-B82728E02E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75061BC0-A5FB-42A6-84B3-B82728E02E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75061BC0-A5FB-42A6-84B3-B82728E02E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75061BC0-A5FB-42A6-84B3-B82728E02E61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B1022F7-0541-4B2D-9525-64B2428DA66E}
+	EndGlobalSection
+EndGlobal
