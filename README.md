@@ -1,2 +1,2 @@
-# fff2csvConverter
-Converts Fixed File Format to CSV based on metadata file
+# ffv2csvConverter
+Fixed File Fomat files to CSV converter based on Metadata File

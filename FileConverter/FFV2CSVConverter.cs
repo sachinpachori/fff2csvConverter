@@ -60,7 +60,7 @@ namespace FileConverter
 
         }
 
-        public List<Metadata> ReadMetadata(string FileSaveWithPath)
+        public List<Metadata> ReadMetadata(string FileSaveWithPath) 
         {            
             string fullText;
             //string temp = "";

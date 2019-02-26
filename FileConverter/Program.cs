@@ -13,7 +13,7 @@ namespace FileConverter
         private static IConfigurationRoot _config;
         #endregion
 
-        private static void Main(string[] args)
+        private static void Main(string[] args) 
         {
             // Create service collection
             var serviceCollection = new ServiceCollection();

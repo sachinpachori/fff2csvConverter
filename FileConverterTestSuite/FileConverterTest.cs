@@ -9,7 +9,7 @@ namespace FileConverterTestSuite
 {
     public class FileConverterTest
     {
-        private readonly FFV2CSVConverter _ffv2csvConverter;
+        private readonly FFV2CSVConverter _ffv2csvConverter; 
         private readonly ILogger<FFV2CSVConverter> _logger;
         private readonly IConfigurationRoot _config;
         private static string _metadataFilePath;

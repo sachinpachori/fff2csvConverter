@@ -7,5 +7,6 @@ namespace FileConverter.Models
         public string ColumnName { get; set; }
         public int ColumnLength { get; set; }
         public string ColumnType { get; set; }
+
     }
 }
